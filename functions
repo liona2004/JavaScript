@@ -7,3 +7,9 @@ multiply(5,5); // 25 вывод
 
 // .length 
 //  [0] узнать значение строки под этим индексом 0 = 1
+
+// .pop() function is used to pop a value off of the end of an array
+const myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray); // выведет cat, 2
+console.log(myArray); // выведет John, 23
