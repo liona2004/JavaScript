@@ -23,3 +23,10 @@ Code	Output
 
 
 // Конкатенации строк - склеивание строк - concatenating strings - оператор +
+// Конкатенация с помощью оператора присваивания +=
+var welcome = "Good ";
+var time = "evening";
+welcome += evening;
+console.log(welcome); // Good evening вывод
+
+// Переменные к строке можно присоединить с помощью операторов: + и +=
