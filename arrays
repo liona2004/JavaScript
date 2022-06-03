@@ -27,8 +27,19 @@ console.log(sandwich.length);
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
 
+
+/* МЕТОДЫ МАССИВОВ
+   1. Очередь или упорядоченная коллекция элементов:
+             1.1 добавление элемента в конце очереди //операции
+             1.2 удаление элемента в начале, сдвигая очередь, так что второй элемент становится первым
+   2. Структура данных - Стек
+             2.1 добавление элемента в конец
+             2.2 удаление последнего элемента */
+             
 // чтобы добавить элемент массиву, нужно обратиться к несуществующему ключу и присвоить строку
 sandwich[3] = "tomato";
 // An easy way to append data to the end of an array is via the push() function, .push() takes one or more parameters and "pushes" them onto the end of the array
 const sandwich = ["peanut butter", "jelly", "bread",];
 sandwich.push("pickles"); // вывод: ["peanut butter", "jelly", "bread", "pickles",]
+
+//
