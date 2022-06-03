@@ -29,3 +29,6 @@ ourArray[0] = 15;
 
 // чтобы добавить элемент массиву, нужно обратиться к несуществующему ключу и присвоить строку
 sandwich[3] = "tomato";
+// An easy way to append data to the end of an array is via the push() function, .push() takes one or more parameters and "pushes" them onto the end of the array
+const sandwich = ["peanut butter", "jelly", "bread",];
+sandwich.push("pickles"); // вывод: ["peanut butter", "jelly", "bread", "pickles",]
