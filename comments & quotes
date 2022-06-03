@@ -8,3 +8,5 @@
 
 const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 This signals to JavaScript that the following quote is not the end of the string */
+
+const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
