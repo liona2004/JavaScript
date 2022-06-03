@@ -13,3 +13,5 @@ const myArray = [["John", 23], ["cat", 2]];
 var removedFromMyArray = myArray.pop();
 console.log(removedFromMyArray); // выведет cat, 2
 console.log(myArray); // выведет John, 23
+
+ // .shift() removes the first element instead of the last
