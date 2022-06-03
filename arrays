@@ -26,7 +26,8 @@ console.log(sandwich.length);
 //arrays are mutable and can be changed freely, even if the array was declared with const
 const ourArray = [50, 40, 30];
 ourArray[0] = 15;
-
+// чтобы добавить элемент массиву, нужно обратиться к несуществующему ключу и присвоить строку
+sandwich[3] = "tomato";
 
 /* МЕТОДЫ МАССИВОВ
    1. Очередь или упорядоченная коллекция элементов:
@@ -35,11 +36,21 @@ ourArray[0] = 15;
    2. Структура данных - Стек
              2.1 добавление элемента в конец
              2.2 удаление последнего элемента */
-             
-// чтобы добавить элемент массиву, нужно обратиться к несуществующему ключу и присвоить строку
-sandwich[3] = "tomato";
+
+// .push() 
 // An easy way to append data to the end of an array is via the push() function, .push() takes one or more parameters and "pushes" them onto the end of the array
 const sandwich = ["peanut butter", "jelly", "bread",];
 sandwich.push("pickles"); // вывод: ["peanut butter", "jelly", "bread", "pickles",]
 
-//
+// .shift()
+// Удаляет первый элемент массива
+
+// .pop()
+// Удаляет последний элемент
+
+// .unshift()
+// Добавляет элемент в начало массива, смещая остальные
+
+// методы push/pop быстро выполняются, а shift/unshift медленно, поэтому больше работы с памятью
+
+
