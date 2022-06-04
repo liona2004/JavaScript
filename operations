@@ -12,3 +12,19 @@ typeof 3 // number
 typeof '3' // string
 
 // оператор неравенства != противоположно ==
+// оператор !== строго не равно
+
+// Логический оператор И && (конъюнкция) будет true только, если все операнды содержат значение true. 11 - true, 01 - false, 10 - false, 00 - false
+if (num > 5) {
+  if (num < 10) {
+    return "Yes";
+  }
+}
+return "No";
+
+// ИЛИ
+
+if (num > 5 && num < 10) {
+  return "Yes";
+}
+return "No";
