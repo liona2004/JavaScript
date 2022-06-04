@@ -17,7 +17,8 @@ console.log(myArray); // выведет John, 23
  // .shift() removes the first element instead of the last
 
 
-// Параменты функции также называются аргументами указываются в круглых скобках через запятую
+/* Параменты функции также называются аргументами указываются в круглых скобках через запятую. 
+Parameters are variables that act as placeholders for the values that are to be input to a function when it is called */
 // Аргумент - это значение, которое передается функции при ее вызове 
 // Параметр - это переменная в круглых скобках
 function showMessage(from, text) {
