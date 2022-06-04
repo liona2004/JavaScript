@@ -31,3 +31,8 @@ Parameters are variables that act as placeholders for the values that are to be 
 function showMessage(from, text) {
   alert(from + ": " + text);
 showMessage("Аня", "Привет"); // то есть в переменную from подставлен аргумент со значением Аня
+
+
+/* Область вдимости переменных. Локальная переменная - та, которая объявлена внутри функции, 
+и за ее пределами она не будет вида.
+За пределами функции будет видна и внутри функции - Внешняя переменная */
