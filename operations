@@ -1,1 +1,7 @@
 const lastLetterOfLastName = lastName[lastName.length - 1]; // т.е. длина строки переменной минус 1 смвол
+
+/* операторы сравнения возвращают либо true, либо false: == если равно. 
+Двойной знак, один знак равенства означал бы присваивание (which assigns the value on the right of the operator to a variable on the left)
+== возвращает true, если два значения равны */
+
+// Сравнение разных типов. При сравнении значений разных типов приводит каждое из них к числу
