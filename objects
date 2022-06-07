@@ -10,3 +10,5 @@ const myDog = {
 синтаксис "конструктор объекта" let userinfo = new Object();
 
 свойства объекта - ключ(имя свойства объекта/идентификатор/properties) и значение name: "Adele",
+if your object has any non-string properties, JavaScript will automatically typecast them as strings
+Ключи можно писать без кавычек "", если нет пробелов
