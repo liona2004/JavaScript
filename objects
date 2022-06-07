@@ -54,3 +54,14 @@ const myBreed = dogs[myDog];
 console.log(myBreed);
 
 
+
+// Как изменить значение свойства объекта
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+myDog.name = "Happy Coder"; // или myDog["name"];
+
+
