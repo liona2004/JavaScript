@@ -10,6 +10,19 @@ switch (expression) {     // expression - выражение, знначение
     //здесь находятся инструкции, которые выполняются при отсутствии соответствующего значения statements_def
 }
 
+switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+
 // case valueN - это случай, который проверяется на соответствие выражению (exxpression)
 // statementN - инструкции, которые выполняются, если выражение соответствует случаю
 //  statements_def - инструкции, которые выполняются, если выражение не соответствует ни одному случаю
