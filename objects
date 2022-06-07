@@ -1,0 +1,12 @@
+const myDog = {
+  "name": "Adele",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Oskar", "Luntik", "Mishka"]
+};
+
+/*
+синтаксис "литерал объекта" let userinfo =  {};  пустой объект
+синтаксис "конструктор объекта" let userinfo = new Object();
+
+свойства объекта - ключ(имя свойства объекта/идентификатор/properties) и значение name: "Adele",
