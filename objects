@@ -1,6 +1,6 @@
 const myDog = {
   "name": "Adele",
-  "legs": 4,
+  "legs and paws": 4,
   "tails": 1,
   "friends": ["Oskar", "Luntik", "Mishka"]
 };
@@ -9,16 +9,22 @@ const myDog = {
 синтаксис "литерал объекта" let userinfo =  {};  пустой объект
 синтаксис "конструктор объекта" let userinfo = new Object();
 
-свойства объекта - ключ(имя свойства объекта/идентификатор/properties) и значение name: "Adele",
+свойства объекта - связка ключ(имя свойства объекта/идентификатор/properties) и значение name: "Adele",
 if your object has any non-string properties, JavaScript will automatically typecast them as strings
 Ключи можно писать без кавычек "", если нет пробелов
 */
 
 let keys = object.keys(myDog);
-console.log(keys); // получаем ключи из объекта метод keys, вывод массив ["name", "legs", "tails", "friends"]
+console.log(keys); // получаем ключи из объекта метод keys, вывод массив ["name", "legs and paws", "tails", "friends"]
 
 let values = object.values(myDog); // как получить значения
 console.log(values);
 
 let entries = object.entries(myDog); // получить связку ключ: значение
 console.log(entries);
+
+/* как получить весь объект или его значение
+*/
+console.log(myDog); // весь объект (пары ключ: значение), просто обратиться к переменной
+console.log(myDog.friends); // значение конкретного свойства, то обращаемся через точку
+console.log(myDog["legs and paws"]); // когда имя свойства состоит из двух или более слов
