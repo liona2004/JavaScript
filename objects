@@ -27,7 +27,7 @@ console.log(entries);
 */
 console.log(myDog); // весь объект (пары ключ: значение), просто обратиться к переменной
 console.log(myDog.friends); // значение конкретного свойства, то обращаемся через точку
-console.log(myDog["legs and paws"]); // когда имя свойства состоит из двух или более слов
+console.log(myDog["legs and paws"]); // когда имя свойства состоит из двух или более слов с пробелами
 
 const testObj = {
   "hat": "ballcap",
