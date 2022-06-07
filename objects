@@ -36,3 +36,6 @@ const testObj = {
 };
 const hatValue = testObj.hat;      
 const shirtValue = testObj.shirt;
+
+const entreeValue = testObj["an entree"];   
+const drinkValue = testObj["the drink"];
