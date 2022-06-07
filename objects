@@ -73,3 +73,5 @@ const myDog = {
 };
 myDog["bark"] = "woof"; // или myDog.bark = "woof";
 
+// удалить ключ
+delete myDog.tails; // или delete myDog["tails"];
