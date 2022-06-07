@@ -12,3 +12,13 @@ const myDog = {
 свойства объекта - ключ(имя свойства объекта/идентификатор/properties) и значение name: "Adele",
 if your object has any non-string properties, JavaScript will automatically typecast them as strings
 Ключи можно писать без кавычек "", если нет пробелов
+*/
+
+let keys = object.keys(myDog);
+console.log(keys); // получаем ключи из объекта метод keys, вывод массив ["name", "legs", "tails", "friends"]
+
+let values = object.values(myDog); // как получить значения
+console.log(values);
+
+let entries = object.entries(myDog); // получить связку ключ: значение
+console.log(entries);
