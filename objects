@@ -78,3 +78,11 @@ delete myDog.tails; // или delete myDog["tails"];
 
 
 // Метод obj.hasOwnProperty() Возвращает true, если ключ/свойство принадлежит объекту
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+}
