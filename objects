@@ -77,7 +77,7 @@ myDog["bark"] = "woof"; // или myDog.bark = "woof";
 delete myDog.tails; // или delete myDog["tails"];
 
 
-// Метод obj.hasOwnProperty() Возвращает true, если ключ/свойство принадлежит объекту
+// Метод obj.hasOwnProperty() Возвращает true, если ключ/свойство принадлежит объекту. проверка содержит ли объект данное свойство
 function checkObj(obj, checkProp) {
   // Only change code below this line
   if (obj.hasOwnProperty(checkProp)) {
@@ -87,6 +87,23 @@ function checkObj(obj, checkProp) {
   }
 }
 
-
+/*
 Data structures are arrays and objects they are a collection of values 
 Должна быть запятая между объектами {}, {}
+
+Как получить доступ к под ключам объекта sub properties
+*/
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
