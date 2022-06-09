@@ -53,4 +53,24 @@ sandwich.push("pickles"); // вывод: ["peanut butter", "jelly", "bread", "pi
 
 // методы push/pop быстро выполняются, а shift/unshift медленно, поэтому больше работы с памятью
 
-
+// Упорядоченные наборы данных nested objects and nested arrays - коллекция элементов, упорядоченных по индексу
+// Как получить необходимое значение на выходе в упорядоченном массиве [{}]
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+const secondTree = myPlants[1].list[1]; // вывод pine
