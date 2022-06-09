@@ -86,3 +86,6 @@ function checkObj(obj, checkProp) {
     return "Not Found";
   }
 }
+
+
+Data structures are arrays and objects they are a collection of values 
