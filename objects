@@ -89,3 +89,4 @@ function checkObj(obj, checkProp) {
 
 
 Data structures are arrays and objects they are a collection of values 
+Должна быть запятая между объектами {}, {}
