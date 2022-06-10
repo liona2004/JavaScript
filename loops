@@ -36,4 +36,11 @@ const myArray = [];
 for (var s = 1; s <= 9; s += 2) {
   myArray.push(s);
 }
+
+Или оператор вычитание с присваиванием -=
+const myArray = [];
+
+for (var m = 9; m >= 1; m -= 2) {
+  myArray.push(m);
+}
 */
