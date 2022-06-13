@@ -2,7 +2,11 @@ const lastLetterOfLastName = lastName[lastName.length - 1]; // т.е. длина
 
 /* операторы сравнения возвращают либо true, либо false: == если равно. 
 Двойной знак, один знак равенства означал бы присваивание (which assigns the value on the right of the operator to a variable on the left)
-== возвращает true, если два значения равны */
+== возвращает true, если два значения равны. Loose equality compares two values for equality after converting both values to a common type. */
+const a = [];
+a == false
+!a == false
+a == !a
 
 // Сравнение разных типов. При сравнении значений разных типов приводит каждое из них к числу
 // Оператор строгого равенства === проверяет равенство без приведения типов, т.е. если значения имеют разные типы (строка и число, например), то проверка возвращает false
