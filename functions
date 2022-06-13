@@ -46,6 +46,13 @@ function myOutfit() {
 }
 myOutfit();
 
+
+function otherAngle(a, b) {
+  var thirdAngle = 180 - (a + b);  // находит значение 3-го угла, зная 2 угла
+  return thirdAngle;
+}
+
+
 /* Функция parseInt() преобразует первый переданный ей аргумент в строковый тип, интерпретирует его и возвращает целое число/integer или 
 значение NaN if the first character in the string can't be converted into a number
 parseInt(string, radix);
