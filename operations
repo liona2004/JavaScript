@@ -60,3 +60,22 @@ function checkSign(num) {
   : "positive";   // else
 }
 checkSign(10);
+
+/* Оператор typeof возвращает строку, указывающую тип операнда.
+console.log(typeof 42);
+// expected output: "number"
+console.log(typeof 'blubber');
+// expected output: "string"
+
+function typeOfSum(a, b) {
+  return typeof (a + b); // good luck
+}
+(typeOfSum(true, 1), 'number');
+(typeOfSum('s', false), 'string');
+(typeOfSum(12, 1), 'number');
+(typeOfSum('d', 1), 'string');
+*/
+
+
+
+
