@@ -44,6 +44,10 @@ function isDivideBy(number, a, b) {
   return (number % a === 0 && number % b === 0) ? true : false; // Can we divide it? деление без остатка
 }
 
+function sakuraFall(v) {
+  return v > 0 ? 400/v : 0; // если скорость больше нуля, то найти время, разделив расстояние на скорость. 400 нашли, умножив время 80 сек на скорость 5 см/сек
+}
+
 
 */
 function checkSign(num) { 
