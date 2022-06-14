@@ -52,6 +52,17 @@ function otherAngle(a, b) {
   return thirdAngle;
 }
 
+function enough(cap, on, wait) {
+  if (on + wait < cap) {
+    return 0;
+  } else {
+    return on + wait - cap;
+  }
+  
+}
+
+
+
 
 /* Функция parseInt() преобразует первый переданный ей аргумент в строковый тип, интерпретирует его и возвращает целое число/integer или 
 значение NaN if the first character in the string can't be converted into a number
