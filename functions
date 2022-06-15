@@ -77,3 +77,28 @@ function convertToInteger(str) {
 }
 convertToInteger("56");
 */
+
+
+// функция сложения чисел в строке
+function sumStr(a,b) {
+  
+  if (a === "" && b === "") {
+    return "0";
+  } else if (a === ""){
+    return b;
+  } else if (b === "") {
+    return a;
+  }
+  var first = parseInt(a);
+  var second = parseInt(b); 
+  var sum = first + second;
+  return sum.toString();
+  
+  
+  
+  function sumStr(a,b) {
+  let total =0;
+  total = total + Number(a) + Number(b);
+  return String(total);
+  
+}
