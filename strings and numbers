@@ -1,0 +1,4 @@
+var a = Number(a);
+ var b = Number(b);
+ var sum = a+b;
+ return String(sum); // как перевести строку в число и сложить числа, а потом обратно вернуть в виде строки
