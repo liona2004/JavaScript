@@ -15,3 +15,8 @@ function sumStr(a,b) {
 function numberToString(num) {
   return String(num); // Return a string of the number here!
 }
+
+
+
+
+numberToString = String;
