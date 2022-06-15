@@ -60,3 +60,15 @@ do {
   console.log(num); // тело цикла
   num++;
 } while (num < 5); // условие condition
+
+
+
+
+function alternate(n, firstValue, secondValue){
+  var theArray = [];
+  for (var i = 0; i < n; i++) { // так как n не array писать length не нужно, i будет 0 потом перескочит на 1 потом 2 3 4 < 5, если n = 5
+    theArray.push(i % 2 === 0 ? firstValue : secondValue); // получается первый индекс 0 поделить на 2 нет остатка т.к 0/2 = 0, поэтому пишем firstValue, второй индекс 1/2 = 0,5 остаток поэтому secondValue
+  }
+  return theArray;
+  
+}
