@@ -5,6 +5,15 @@
 while (condition) {
 // тело цикла
 }
+function fourSeven(n){
+  while (n === 4) {
+    return 7;
+  } while (n === 7) {
+    return 4;
+  } while (n !== 4 && n!== 7) {
+    return 0;
+  }
+}
 
 /* Цикл for состоит из трёх необязательных выражений в круглых скобках
 for (начало; условие; шаг) {
