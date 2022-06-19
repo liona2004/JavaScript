@@ -81,3 +81,16 @@ function alternate(n, firstValue, secondValue){
   return theArray;
   
 }
+
+
+const prices = [19.99, 4.95, 25, 3.50];
+let new_prices = [];
+for(let i=0; i < prices.length; i++) {
+   new_prices.push(prices[i] * 1.06);
+}
+//ИЛИ
+const prices = [19.99, 4.95, 25, 3.50];
+let new_prices = prices.map(price => price * 1.06);
+
+
+
