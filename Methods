@@ -10,3 +10,6 @@ return Math.floor(Math.random() * (max - min + 1)) + min; // Максимум и
 
 Math.floor() to round the number down to its nearest whole number
 */
+
+
+The Math.round() function returns the value of a number rounded to the nearest integer.
